@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D05CC28A165046EB000F54F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05CC289165046EB000F54F0 /* UIKit.framework */; };
+		D05CC28C165046EB000F54F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05CC28B165046EB000F54F0 /* Foundation.framework */; };
+		D05CC28E165046EB000F54F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05CC28D165046EB000F54F0 /* CoreGraphics.framework */; };
+		D05CC294165046EB000F54F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D05CC292165046EB000F54F0 /* InfoPlist.strings */; };
+		D05CC296165046EB000F54F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D05CC295165046EB000F54F0 /* main.m */; };
+		D05CC29A165046EB000F54F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D05CC299165046EB000F54F0 /* AppDelegate.m */; };
+		D05CC29C165046EB000F54F0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CC29B165046EB000F54F0 /* Default.png */; };
+		D05CC29E165046EB000F54F0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CC29D165046EB000F54F0 /* Default@2x.png */; };
+		D05CC2A0165046EB000F54F0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CC29F165046EB000F54F0 /* Default-568h@2x.png */; };
+		D05CC2A3165046EB000F54F0 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05CC2A1165046EB000F54F0 /* MainStoryboard_iPhone.storyboard */; };
+		D05CC2A6165046EC000F54F0 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05CC2A4165046EC000F54F0 /* MainStoryboard_iPad.storyboard */; };
+		D05CC2A9165046EC000F54F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05CC2A8165046EC000F54F0 /* ViewController.m */; };
+		D05CC2B216504801000F54F0 /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D05CC2B116504801000F54F0 /* photo.jpg */; };
+		D05CC2B816504B61000F54F0 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05CC2B716504B61000F54F0 /* iAd.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D05CC285165046EB000F54F0 /* iChad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05CC289165046EB000F54F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D05CC28B165046EB000F54F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D05CC28D165046EB000F54F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D05CC291165046EB000F54F0 /* iChad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iChad-Info.plist"; sourceTree = "<group>"; };
+		D05CC293165046EB000F54F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D05CC295165046EB000F54F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D05CC297165046EB000F54F0 /* iChad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iChad-Prefix.pch"; sourceTree = "<group>"; };
+		D05CC298165046EB000F54F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D05CC299165046EB000F54F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D05CC29B165046EB000F54F0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D05CC29D165046EB000F54F0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D05CC29F165046EB000F54F0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D05CC2A2165046EB000F54F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		D05CC2A5165046EC000F54F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		D05CC2A7165046EC000F54F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D05CC2A8165046EC000F54F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D05CC2B116504801000F54F0 /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
+		D05CC2B716504B61000F54F0 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D05CC282165046EB000F54F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05CC2B816504B61000F54F0 /* iAd.framework in Frameworks */,
+				D05CC28A165046EB000F54F0 /* UIKit.framework in Frameworks */,
+				D05CC28C165046EB000F54F0 /* Foundation.framework in Frameworks */,
+				D05CC28E165046EB000F54F0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D05CC27A165046EB000F54F0 = {
+			isa = PBXGroup;
+			children = (
+				D05CC2B716504B61000F54F0 /* iAd.framework */,
+				D05CC28F165046EB000F54F0 /* iChad */,
+				D05CC288165046EB000F54F0 /* Frameworks */,
+				D05CC286165046EB000F54F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D05CC286165046EB000F54F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D05CC285165046EB000F54F0 /* iChad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D05CC288165046EB000F54F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D05CC289165046EB000F54F0 /* UIKit.framework */,
+				D05CC28B165046EB000F54F0 /* Foundation.framework */,
+				D05CC28D165046EB000F54F0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D05CC28F165046EB000F54F0 /* iChad */ = {
+			isa = PBXGroup;
+			children = (
+				D05CC2B116504801000F54F0 /* photo.jpg */,
+				D05CC298165046EB000F54F0 /* AppDelegate.h */,
+				D05CC299165046EB000F54F0 /* AppDelegate.m */,
+				D05CC2A1165046EB000F54F0 /* MainStoryboard_iPhone.storyboard */,
+				D05CC2A4165046EC000F54F0 /* MainStoryboard_iPad.storyboard */,
+				D05CC2A7165046EC000F54F0 /* ViewController.h */,
+				D05CC2A8165046EC000F54F0 /* ViewController.m */,
+				D05CC290165046EB000F54F0 /* Supporting Files */,
+			);
+			path = iChad;
+			sourceTree = "<group>";
+		};
+		D05CC290165046EB000F54F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D05CC291165046EB000F54F0 /* iChad-Info.plist */,
+				D05CC292165046EB000F54F0 /* InfoPlist.strings */,
+				D05CC295165046EB000F54F0 /* main.m */,
+				D05CC297165046EB000F54F0 /* iChad-Prefix.pch */,
+				D05CC29B165046EB000F54F0 /* Default.png */,
+				D05CC29D165046EB000F54F0 /* Default@2x.png */,
+				D05CC29F165046EB000F54F0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D05CC284165046EB000F54F0 /* iChad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05CC2AC165046EC000F54F0 /* Build configuration list for PBXNativeTarget "iChad" */;
+			buildPhases = (
+				D05CC281165046EB000F54F0 /* Sources */,
+				D05CC282165046EB000F54F0 /* Frameworks */,
+				D05CC283165046EB000F54F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iChad;
+			productName = iChad;
+			productReference = D05CC285165046EB000F54F0 /* iChad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D05CC27C165046EB000F54F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Montag, Andrew J";
+			};
+			buildConfigurationList = D05CC27F165046EB000F54F0 /* Build configuration list for PBXProject "iChad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D05CC27A165046EB000F54F0;
+			productRefGroup = D05CC286165046EB000F54F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D05CC284165046EB000F54F0 /* iChad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D05CC283165046EB000F54F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05CC294165046EB000F54F0 /* InfoPlist.strings in Resources */,
+				D05CC29C165046EB000F54F0 /* Default.png in Resources */,
+				D05CC29E165046EB000F54F0 /* Default@2x.png in Resources */,
+				D05CC2A0165046EB000F54F0 /* Default-568h@2x.png in Resources */,
+				D05CC2A3165046EB000F54F0 /* MainStoryboard_iPhone.storyboard in Resources */,
+				D05CC2A6165046EC000F54F0 /* MainStoryboard_iPad.storyboard in Resources */,
+				D05CC2B216504801000F54F0 /* photo.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D05CC281165046EB000F54F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05CC296165046EB000F54F0 /* main.m in Sources */,
+				D05CC29A165046EB000F54F0 /* AppDelegate.m in Sources */,
+				D05CC2A9165046EC000F54F0 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D05CC292165046EB000F54F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05CC293165046EB000F54F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D05CC2A1165046EB000F54F0 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05CC2A2165046EB000F54F0 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D05CC2A4165046EC000F54F0 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05CC2A5165046EC000F54F0 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D05CC2AA165046EC000F54F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D05CC2AB165046EC000F54F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D05CC2AD165046EC000F54F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iChad/iChad-Prefix.pch";
+				INFOPLIST_FILE = "iChad/iChad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D05CC2AE165046EC000F54F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iChad/iChad-Prefix.pch";
+				INFOPLIST_FILE = "iChad/iChad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D05CC27F165046EB000F54F0 /* Build configuration list for PBXProject "iChad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05CC2AA165046EC000F54F0 /* Debug */,
+				D05CC2AB165046EC000F54F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05CC2AC165046EC000F54F0 /* Build configuration list for PBXNativeTarget "iChad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05CC2AD165046EC000F54F0 /* Debug */,
+				D05CC2AE165046EC000F54F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D05CC27C165046EB000F54F0 /* Project object */;
+}
